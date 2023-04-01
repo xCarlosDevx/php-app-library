@@ -16,7 +16,7 @@ function sendContact($nombre, $correo, $fecha, $asunto, $comentario)
 
         $query->execute();
     } catch (PDOException $ex) {
-        echo 'Error en la consulta: ' . $ex->getMessage();
+        echo 'Error en la consulta de insert: ' . $ex->getMessage();
     }
 } 
 ?>
