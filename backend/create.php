@@ -5,7 +5,7 @@ function createContact()
     try {
         $pdo = con();
         $query = $pdo->prepare("CREATE TABLE IF NOT EXISTS contacto (
-            id int(11) NOT NULL,
+            id int(11) NOT NULL AUTO_INCREMENT,
             fecha date NOT NULL,
             correo varchar(60) NOT NULL,
             nombre varchar(60) NOT NULL,
