@@ -1,0 +1,120 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+a {
+  color: #000;
+}
+.container {
+  min-height: 100%;
+  position: relative;
+  top: 50px;
+}
+.nav__menu ul {
+  display: flex;
+  background-color: #d0d0d0;
+  font-size: 18px;
+  justify-content: end;
+}
+.nav__menu ul li:hover {
+  display: inline-block;
+  background-color: #787878;
+  color: #fff;
+}
+.nav__menu li {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  list-style: none;
+}
+
+.container__all {
+  margin-top: 20px;
+}
+.card__title__content:hover {
+  cursor: grab;
+}
+.card__title__content:active {
+  cursor: grabbing;
+}
+.card__container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  overflow: hidden;
+}
+.card__title__content {
+  width: 300px;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 10px 0 10px 0;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+}
+.card__title__content {
+  margin: auto;
+}
+.card__title__content img:hover {
+  width: 170px;
+}
+.card__title__content img {
+  width: 150px;
+  transition: width 0.5s;
+}
+
+.card__title__content .title {
+  padding-top:10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.card__title__content .subtitle,
+.price,
+.price__title {
+  font-size: 14px;
+  margin: 0;
+  text-align: justify;
+}
+.card__title__content .subtitle__weight {
+  font-size: 14px;
+  margin: 0;
+  text-align: justify;
+  font-weight: bold;
+}
+.price {
+  font-weight: bold;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color: #787878;
+  color: #dedede;
+  padding-top: 10px;
+}
+.nav__link ul,
+li,
+.copyRight {
+  display: flex;
+  justify-content: center;
+  padding: 0 5px 0 5px;
+  font-size: 16px;
+}
+.nav__link ul {
+  list-style: none;
+  color: #000;
+}
+.nav__link a {
+  color: #dedede;
+}
+
+.arrow {
+  font-size: 50px;
+}
