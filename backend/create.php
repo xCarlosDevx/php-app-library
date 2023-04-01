@@ -15,7 +15,7 @@ function createContact()
 
         $query->execute();
     } catch (PDOException $ex) {
-        echo 'Error en la consulta: ' . $ex->getMessage();
+        echo 'Error en la consulta de create: ' . $ex->getMessage();
     }
 }
 ?>
