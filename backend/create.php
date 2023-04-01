@@ -10,7 +10,8 @@ function createContact()
             correo varchar(60) NOT NULL,
             nombre varchar(60) NOT NULL,
             asunto varchar(60) NOT NULL,
-            comentario varchar(60) NOT NULL
+            comentario varchar(60) NOT NULL,
+            PRIMARY KEY (id)
           )");
 
         $query->execute();
